@@ -13,7 +13,7 @@ function App() {
       <Dictionary />
       </main>
       <footer>
-        Coded by Katherine. Stored on Github and hosted on Netlify. 
+        Coded by Katherine. Stored on <a href = "https://github.com/Warkat708/dictionary"> Github</a> and hosted on <a href = "https://reverent-bhabha-580400.netlify.app/">Netlify</a>. 
       </footer>
     </div>
     </div>
