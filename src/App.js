@@ -10,7 +10,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
       </header>
       <main>
-      <Dictionary />
+      <Dictionary defaultKeyword = "wine" />
       </main>
       <footer>
         Coded by Katherine. Stored on <a href = "https://github.com/Warkat708/dictionary"> Github</a> and hosted on <a href = "https://reverent-bhabha-580400.netlify.app/">Netlify</a>. 
