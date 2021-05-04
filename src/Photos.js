@@ -1,4 +1,5 @@
 import React from "react";
+import "./Photos.css"; 
 
 export default function Photos (props) {
     if (props.photos) {
@@ -7,10 +8,10 @@ export default function Photos (props) {
         <div className = "row">
         {props.photos.map(function (photo, index) {
             return (
-            <div className = "col-3" key = {index}>
+            <span className = "col-3" key = {index}>
             <img src={photo.src.landscape} 
-            className = "img-fluid"  alt = "feet"/>
-            </div>
+            className = "img-fluid"  alt = "feet" width = "210"/>
+            </span>
             );
         })}
     </div>
